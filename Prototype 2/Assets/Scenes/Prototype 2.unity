@@ -244,6 +244,8 @@ MonoBehaviour:
   - {fileID: 534523280397652488, guid: ff51cfc9312ed3646911a7e289847a16, type: 3}
   - {fileID: 2855174794914916431, guid: be537c4ea49deb8468b506797a3d481c, type: 3}
   - {fileID: 1663474062874364073, guid: 549befb57364fe742a9f197721a6b880, type: 3}
+  spawnRangeX: 20
+  spawnPosZ: 20
 --- !u!4 &395008521
 Transform:
   m_ObjectHideFlags: 0
@@ -466,7 +468,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
