@@ -1364,6 +1364,7 @@ GameObject:
   - component: {fileID: 7577476094004324219}
   - component: {fileID: -6845024545970367274}
   - component: {fileID: 4882415885054339326}
+  - component: {fileID: 5344945638082746759}
   m_Layer: 0
   m_Name: BlackHorse
   m_TagString: Untagged
@@ -1422,7 +1423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737750630c2ae994ba256b197d19fb1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  speed: 10
 --- !u!114 &7577476094004324219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1443,7 +1444,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534523280397652488}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 15, y: 40, z: 40}
@@ -1464,6 +1465,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5344945638082746759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534523280397652488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c6166a5496f0894399da81ca3d74904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &534523280397652990
 GameObject:
   m_ObjectHideFlags: 0
