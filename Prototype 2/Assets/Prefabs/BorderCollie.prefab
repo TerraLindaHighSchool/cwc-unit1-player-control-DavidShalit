@@ -1571,6 +1571,8 @@ GameObject:
   - component: {fileID: 2855174794907559415}
   - component: {fileID: 8984779075615208956}
   - component: {fileID: 1927673491862286683}
+  - component: {fileID: 3170339710893678173}
+  - component: {fileID: -2230485800491558408}
   m_Layer: 0
   m_Name: BorderCollie
   m_TagString: Untagged
@@ -1673,6 +1675,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126f0c1e621659247ae6432b772a23f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &3170339710893678173
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2855174794914916431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.4, z: 0.25}
+  m_Center: {x: 0, y: 0.2, z: 0.05}
+--- !u!54 &-2230485800491558408
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2855174794914916431}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2855174794914917287
 GameObject:
   m_ObjectHideFlags: 0
