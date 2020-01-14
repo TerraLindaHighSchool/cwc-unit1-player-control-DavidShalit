@@ -1361,6 +1361,7 @@ GameObject:
   - component: {fileID: 534523280397371192}
   - component: {fileID: 534523280407083036}
   - component: {fileID: -1657933709530910014}
+  - component: {fileID: 7577476094004324219}
   m_Layer: 0
   m_Name: BlackHorse
   m_TagString: Untagged
@@ -1420,6 +1421,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &7577476094004324219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534523280397652488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126f0c1e621659247ae6432b772a23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &534523280397652990
 GameObject:
   m_ObjectHideFlags: 0
